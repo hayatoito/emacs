@@ -28,6 +28,8 @@ evaluate `symbol-overlay-mode'.
 The mode's hook is called both when the mode is enabled and when
 it is disabled.
 
+\\{symbol-overlay-mode-map}
+
 (fn &optional ARG)" t)
 (autoload 'symbol-overlay-put "symbol-overlay" "\
 Toggle all overlays of symbol at point." t)
